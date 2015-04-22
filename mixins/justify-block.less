@@ -1,0 +1,14 @@
+.justify-block {
+	text-align: justify;
+
+	&:before,
+	&:after {
+		content: '';
+		display: inline-block;
+		width: 100%;
+	}
+
+	&:before {
+		display: block;
+	}
+}
